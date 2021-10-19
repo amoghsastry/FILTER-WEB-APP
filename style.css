@@ -1,0 +1,27 @@
+h3 {
+    font-size: 30px !important;
+    font-family: 'Courgette', cursive;
+    color: darkcyan;
+    
+}
+.btn-success:hover {
+    background-color: crimson;
+}
+canvas {
+    
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px chocolate;}
+    to{box-shadow: 1px 1px 38px whitesmoke;}
+}
+button {
+    background-color: deeppink;
+    width: 200px;
+    height: 50px;
+    font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
